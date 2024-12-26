@@ -1,4 +1,6 @@
-# [Create database](/sql%20queries/01_Database_Setup/01_Create_Database.sql)
+# Create Database
+
+### [Source code here](/sql%20queries/01_Database_Setup/01_Create_Database.sql)
 
 The database that I have created will include
 - 1 Fact table
@@ -12,7 +14,7 @@ The database that I have created will include
 
 # [Extracting data](/sql%20queries/01_Database_Setup/02_Extracting_Data.sql)
 
-## [Source code here](/sql%20queries/01_Database_Setup/02_Extracting_Data.sql)
+### [Source code here](/sql%20queries/01_Database_Setup/02_Extracting_Data.sql)
 
 All the data are extracted from ContosoRetailDW using the following SQL scripts
 ```sql
@@ -25,3 +27,6 @@ select
 	CalendarQuarterLabel as Quarter
 from ContosoRetailDW..DimDate
 ```
+Different columns will be selected for different dimensions
+
+# [Data cleaning](/sql%20queries/01_Database_Setup/04_Data_Cleaning.sql)
