@@ -2,17 +2,6 @@ use ContosoRetail
 
 -- DimGeography
 
--- Checking if there is any Store that contains null values related to DimGeography
-select 
-	StoreName,
-	ContinentName,
-	CityName,
-	StateProvinceName,
-	RegionCountryName
-from DimStore s
-join DimGeography g
-on s.GeographyKey = g.GeographyKey
-
 -- Dropping NULL values in DimGeography
 
 delete from DimGeography

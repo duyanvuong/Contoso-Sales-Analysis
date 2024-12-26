@@ -11,13 +11,7 @@ Only DimGeography has null values
 - It has null values because it represent Continents, or a States, Countries
 - Because of that, I decided to remove all the records that has a CityName is null
 */
-select 
-    GeographyKey,
-    ContinentName,
-    CityName,
-    StateProvinceName,
-    RegionCountryName
-from ContosoRetailDW..DimGeography
+
 -- Checking for missing values
 
 -- FactSales
