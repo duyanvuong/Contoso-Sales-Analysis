@@ -1,7 +1,7 @@
 use ContosoRetail
 
 /*
-First I want to check if there is any missing values in every single table using the query above, it will contain:
+Check if there is any missing values in every single table using the query above, it will contain:
 - Total rows of records of each table
 - Total missing values of each columns in a table
 */
